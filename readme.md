@@ -1,6 +1,8 @@
 
 # LOGIN-JWT-SPRINGSECURITY-ANGULAR
 
+▶️ Progreso del proyecto: 60%
+
 Este projecto es un sistema de login, se implementa un proceso de autenticación con JWT y SpringSecurity para la seguridad de la arquitectura.
 
 🔧 Back-end desarrollado en [Springboot 3.0]
