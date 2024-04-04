@@ -64,7 +64,7 @@ CREATE TABLE users (
 #### ⭕ Register
 
 ```http
-  POST /auth/login
+  POST /auth/register
 ```
 
 🔗 Body:
