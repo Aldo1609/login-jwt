@@ -22,6 +22,21 @@ Este projecto es un sistema de login, se implementa un proceso de autenticación
 
 📏 Springboot 3.0
 
+📏 Script SQL:
+
+```
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(255) NOT NULL,
+    lastname VARCHAR(255) NOT NULL,
+    firstname VARCHAR(255),
+    country VARCHAR(255),
+    password VARCHAR(255),
+    role VARCHAR(255),
+    UNIQUE KEY (username)
+);
+```
+
 
 
 
@@ -36,10 +51,12 @@ Este projecto es un sistema de login, se implementa un proceso de autenticación
 
 🔗 Body:
 
+```
 {
     "username": "example",
     "password": "example"
 }
+```
 
 
 #### ⭕ Register
@@ -50,6 +67,7 @@ Este projecto es un sistema de login, se implementa un proceso de autenticación
 
 🔗 Body:
 
+```
 {
     "username": "example",
     "firstname": "example",
@@ -57,6 +75,7 @@ Este projecto es un sistema de login, se implementa un proceso de autenticación
     "password": "example",
     "country": "Mexico"
 }
+```
 
 #### ⭕ Obtener Usuario
 
@@ -69,7 +88,7 @@ Este projecto es un sistema de login, se implementa un proceso de autenticación
 ```http
   PUT /api/v1/user/{id}
 ```
-
+```
 🔗 Body:
 
 {
@@ -79,6 +98,7 @@ Este projecto es un sistema de login, se implementa un proceso de autenticación
     "password": "example",
     "country": "Mexico"
 }
+```
 
 
 
