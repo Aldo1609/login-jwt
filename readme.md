@@ -9,7 +9,7 @@ Este projecto es un sistema de login, se implementa un proceso de autenticación
 
 🔧 Front-end desarrollado en  [Angular 16.2.12]
 
-    Link del repositorio: https://github.com/Aldo1609/login-awt-front
+    Link del repositorio: https://github.com/Aldo1609/login-jwt-front
 
 🔧 Base de datos en Postgresql [Version 15.6]
 
